@@ -119,80 +119,62 @@
         <!-- TEST EKRANI -->
         <div id="quiz-section">
             <h1>Arifenur'un Özel Testi ❤️</h1>
-            <p id="progress-subtitle" class="subtitle">Soru 1 / 7</p>
+            <p id="progress-subtitle" class="subtitle">Soru 1 / 5</p>
             
             <!-- Soru 1 -->
             <div class="question-box" id="q1">
                 <p class="question">1. Evde yorulup dinlenirken genellikle nerede ve nasıl vakit geçirirsin?</p>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Yanlış! Koltuğa değil halıya yapışırsın.')">Koltuğa yapışıp dizi izlerim</button>
-                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Halının üstünde yuvarlanmak en iyisi.')">Halının üstünde yuvarlanırım</button>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Yanlış! Mutfakta sabaha kadar durmazsın.')">Mutfakta sürekli yemek yaparım</button>
+                <button class="quiz-btn" onclick="cevapVer(this, false, 'Aslında genelde evet koltuğa oturup dizi izlersin ama...')">Koltuğa oturup dizi izlerim</button>
+                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Halının üzerinde uzanmak her zaman daha güzel.')">Halının üzerinde uzanmak daha güzel</button>
+                <button class="quiz-btn" onclick="cevapVer(this, false, 'Yok artık, sabaha kadar mutfaktan çıkmıyorsun sanki.')">Mutfakta sürekli atıştırırım</button>
                 <div class="feedback-msg" id="f1"></div>
             </div>
 
             <!-- Soru 2 -->
             <div class="question-box" id="q2">
                 <p class="question">2. Muharrem'in halı sahaya gitmesine karşı ilk tepkin ne olur?</p>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Hiç de bile, sessiz kalmazsın.')">Hemen başarılar dilerim</button>
-                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Beni seçmedin yazıklar olsun dersin.')">Beni seçmedin yazıklar olsun dersin</button>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Hiç takmam dediğini duymadım.')">Hiç takmam</button>
+                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Önce trip atılır, sonra vurduğun gol olsun denir.')">İlk önce maç mı ben mi der, sonra vurduğun gol olsun der</button>
+                <button class="quiz-btn" onclick="cevapVer(this, false, 'Hiç de bile, sadece bana zaman ayırabilirsin.')">Hiç sesimi çıkarmam, hemen gönderirim</button>
+                <button class="quiz-btn" onclick="cevapVer(this, false, 'Bu da kısmen doğru ama klasiğimiz başkaydı!')">Beni seçmedin yazıklar olsun derim</button>
                 <div class="feedback-msg" id="f2"></div>
             </div>
 
             <!-- Soru 3 -->
             <div class="question-box" id="q3">
                 <p class="question">3. Muharrem'in sana olan sevgisi için ne söylenebilir?</p>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Asla çabuk unutmaz.')">Çabuk unutur</button>
-                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Kara sevdalıdır, vazgeçmez.')">Kara sevdalıdır, asla vazgeçmez</button>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Öylesine takılmıyor.')">Öylesine takılıyor</button>
+                <button class="quiz-btn" onclick="cevapVer(this, false, 'Kendini unutur, senin gülünce kısılan gözlerini unutamaz.')">Çabuk unutur</button>
+                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Çünkü sen onun bebeğisin.')">Kara sevdalıdır, asla vazgeçmez</button>
+                <button class="quiz-btn" onclick="cevapVer(this, false, 'Naynn, kara sevdalı!')">Öylesine takılıyor</button>
                 <div class="feedback-msg" id="f3"></div>
             </div>
 
             <!-- Soru 4 -->
             <div class="question-box" id="q4">
-                <p class="question">4. Merdivenden düşüp ayağını acıttığında ne demiştin?</p>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Sessiz kalmamıştın.')">Hiç sesimi çıkarmadım</button>
-                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Avazım çıktığı kadar ağlayacağım dedin.')">Avazım çıktığı kadar ağlayacağım dedim</button>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Hastaneye koşmamıştın.')">Hemen hastaneye koştum</button>
+                <p class="question">4. Seni kaçırmakla ilgili şaka yaptığımda ne dersin?</p>
+                <button class="quiz-btn" onclick="cevapVer(this, false, 'Dediğinde beni kandırıyor.')">Hemen gel kaçır</button>
+                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Bağır kaçarım ki hemen.')">İmdat bağırırım babam seni döğerr derim</button>
+                <button class="quiz-btn" onclick="cevapVer(this, false, 'Çünküm artık kaçırılmak istiyorum.')">Hiç tepki vermem</button>
                 <div class="feedback-msg" id="f4"></div>
             </div>
 
             <!-- Soru 5 -->
             <div class="question-box" id="q5">
-                <p class="question">5. Ümraniye'deki ehliyet kursu kapalı olunca ne yaptın?</p>
-                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! 100 kere arayıp deliye dönmüştün.')">100 kere arayıp deliye dönmüştüm</button>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Gülüp geçmemiştin.')">Gülüp geçip eve döndüm</button>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Sakin kalmamıştın.')">Hemen yeni randevu aldım</button>
+                <p class="question">5. Artık bebeğin olabilir miyim?</p>
+                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Ben hep senin bebeğinimkinee.')">Evet, tabii ki!</button>
+                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Çünkü ben hep senin bebeğindimkinee.')">Hayır</button>
                 <div class="feedback-msg" id="f5"></div>
-            </div>
-
-            <!-- Soru 6 -->
-            <div class="question-box" id="q6">
-                <p class="question">6. Seni kaçırmakla ilgili şaka yaptığımda ne dersin?</p>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Hemen gel demezsin.')">Hemen gel kaçır</button>
-                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Babama bağırırım diğeri.')">Babama bağırırım seni istemezler dersin</button>
-                <button class="quiz-btn" onclick="cevapVer(this, false, 'Tepkisiz kalmazsın.')">Hiç tepki vermem</button>
-                <div class="feedback-msg" id="f6"></div>
-            </div>
-
-            <!-- Soru 7 -->
-            <div class="question-box" id="q7">
-                <p class="question">7. Artık bebeğin olabilir miyim?</p>
-                <button class="quiz-btn" onclick="cevapVer(this, true, 'Doğru! Sonsuza kadar kalbimin sahibisin.')">Evet, tabii ki!</button>
-                <button class="quiz-btn" onclick="cevapVer(this, true, 'Zaten kaçamazsın.')">Hayır</button>
-                <div class="feedback-msg" id="f7"></div>
             </div>
 
             <button id="next-btn" onclick="sonrakiSoru()">Sonraki Soruya Geç</button>
 
-            <div id="score" style="display:none; margin-top:20px; font-weight:600; color:#ff80ab;">Romantik Puanın: <span id="puan-yazisi">0</span> / 7</div>
+            <div id="score" style="display:none; margin-top:20px; font-weight:600; color:#ff80ab;">Romantik Puanın: <span id="puan-yazisi">0</span> / 5</div>
             <div id="result-message"></div>
         </div>
     </div>
 
     <script>
         let simdikiSoru = 1;
-        let toplamSoru = 7;
+        let toplamSoru = 5;
         let puan = 0;
         let kullaniciCevaplari = [];
 
@@ -240,7 +222,7 @@
                     msgBox.innerHTML = 'Mükemmelsin Arifenur! Testi fulledin, seni çok seviyorum!';
                 } else {
                     msgBox.className = 'warning';
-                    msgBox.innerHTML = 'Olsun sevgilim, puanın: ' + puan + ' / 7. Seni çok seviyorum!';
+                    msgBox.innerHTML = 'Olsun sevgilim, puanın: ' + puan + ' / 5. Seni çok seviyorum!';
                 }
 
                 fetch('/sonucu-kaydet', {
